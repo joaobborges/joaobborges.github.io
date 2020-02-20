@@ -376,19 +376,19 @@ textarea {
   }
 
 h1 {
-  font-size: 22.62px;
+  font-size: 1.414rem;
   font-family: 'gilroymedium';
 }
 
 
 h2 {
-  font-size: 22.62px;
+  font-size: 1.414rem;
   font-family: 'gilroylight';
   opacity: 0.45;
 }
 
 p {
-  font-size: 31.99px;
+  font-size: 1.999rem;
   font-family: 'gilroybold';
   max-width: 80%;
 }
@@ -425,4 +425,19 @@ text-decoration: underline;
 
 .dribbble {
   color: #F97AE4;
+}
+
+.mail {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .jb-container {
+    width: 100%;
+    max-width: 80%;
+  }
+  p {
+    font-size: 1.7rem;
+  }
 }
